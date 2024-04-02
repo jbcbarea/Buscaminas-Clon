@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/header_title"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:textAlignment="center"
+        android:text="Instrucciones"
+        android:textColor="#959"
+        android:textSize="30dp"
+        android:gravity="center_horizontal" />
+
+
+    <TextView
+        android:id="@+id/txtIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="El juego es tipo buscaminas:
+                Cuando pulsas en una casilla, sale un número que identifica cuántas bombas hay alrededor.Ten cuidado por que si pulsas en una casilla que tenga bomba escondida, perderás.(Aparecerán donde se escondian las bombas en el Tablero. Si crees o tienes la certeza de que hay una bomba, haz click largo sobre la casilla para señalarla, aparecerá una bandera de marcado. No hagas un click largo en una casilla donde no hay una bomba porque perderás.Ganas una vez hayas encontrado todas las bombas."
+        android:textSize="19dp" />
+
+
+</LinearLayout>
